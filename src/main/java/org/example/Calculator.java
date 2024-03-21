@@ -8,4 +8,6 @@ public interface Calculator<T> {
     public T multiply(T a, T b);
 
     public T divide(T a, T b);
+
+    public T square(T a);
 }
