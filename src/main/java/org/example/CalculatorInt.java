@@ -29,8 +29,5 @@ public class CalculatorInt implements Calculator<Integer>{
         System.out.println("Square: ");
         return a * a;
     }
-     public Integer findMin(Integer a,Integer b){
-        return Math.max(a,b);
-     }
 
 }
