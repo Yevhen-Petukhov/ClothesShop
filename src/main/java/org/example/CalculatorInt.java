@@ -12,7 +12,7 @@ public class CalculatorInt implements Calculator<Integer>{
 
     @Override
     public Integer multiply(Integer a, Integer b) {
-        return null;
+        return a * b;
     }
 
     @Override
