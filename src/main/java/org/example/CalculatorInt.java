@@ -25,4 +25,8 @@ public class CalculatorInt implements Calculator<Integer>{
         return a * a;
     }
 
+    public Integer findMax(Integer a,Integer b){
+        return Math.max(a,b);
+    }
+
 }
