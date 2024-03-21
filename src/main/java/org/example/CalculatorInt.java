@@ -17,7 +17,7 @@ public class CalculatorInt implements Calculator<Integer>{
 
     @Override
     public Integer divide(Integer a, Integer b) {
-        return null;
+        return a / b;
     }
 
 }
