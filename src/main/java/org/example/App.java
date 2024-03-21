@@ -8,9 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-float a = 10;
-float b = 2;
-Calculator<Float> calculator = new;
+double a = 10;
+double b = 2;
+Calculator<Double> calculator = new CalculatorDouble();
         System.out.println("Add:" + calculator.sum(a,b));
         System.out.println("Minus:" + calculator.difference(a,b));
         System.out.println("Multiply:" + calculator.multiply(a,b));

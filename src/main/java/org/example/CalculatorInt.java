@@ -1,4 +1,23 @@
 package org.example;
 
-public class CalculatorInt {
+public class CalculatorInt implements Calculator<Integer>{
+    @Override
+    public Integer sum(Integer a, Integer b) {
+        return null;
+    }
+    @Override
+    public Integer difference(Integer a, Integer b) {
+        return null;
+    }
+
+    @Override
+    public Integer multiply(Integer a, Integer b) {
+        return null;
+    }
+
+    @Override
+    public Integer divide(Integer a, Integer b) {
+        return null;
+    }
+
 }
