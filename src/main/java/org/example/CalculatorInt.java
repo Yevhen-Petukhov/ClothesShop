@@ -30,7 +30,7 @@ public class CalculatorInt implements Calculator<Integer>{
         return a * a;
     }
      public Integer findMin(Integer a,Integer b){
-        return Math.min(a,b);
+        return Math.max(a,b);
      }
 
 }
