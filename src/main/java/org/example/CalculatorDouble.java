@@ -3,7 +3,7 @@ package org.example;
 public class CalculatorDouble implements Calculator<Double> {
     @Override
     public Double sum(Double a, Double b) {
-        return null;
+        return a + b;
     }
     @Override
     public Double difference(Double a, Double b) {
