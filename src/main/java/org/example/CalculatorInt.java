@@ -7,7 +7,7 @@ public class CalculatorInt implements Calculator<Integer>{
     }
     @Override
     public Integer difference(Integer a, Integer b) {
-        return null;
+        return a - b;
     }
 
     @Override
