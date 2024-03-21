@@ -20,4 +20,9 @@ public class CalculatorInt implements Calculator<Integer>{
         return a / b;
     }
 
+    @Override
+    public Integer square(Integer a) {
+        return a * a;
+    }
+
 }
